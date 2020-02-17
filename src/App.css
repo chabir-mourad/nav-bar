@@ -1,0 +1,218 @@
+.App {
+  text-align: center;
+}
+.logo{
+  width:200px;
+  height: 50px;
+}
+#list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 800px;
+
+}
+.item{
+  margin:15px
+}
+.container{
+  display: flex;
+  
+}
+.menu{
+  display: flex;}
+ 
+  
+ * {
+    padding: 0;
+    margin:0;
+  }
+
+.elements{
+  padding-left: 9em;
+  padding-top: 1em;
+  list-style: none;
+ 
+  }
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+.dropdown{
+  list-style: none;
+  padding-top: 15px;
+  display: none;
+  position: absolute;
+  border: 1px solid black;
+} 
+.elements:hover .dropdown {
+  display: block;
+}
+.small_logo {
+  padding-bottom: 3%;
+  padding-top: 10%;
+}
+.title {
+  color: #27c3d3 ;
+  padding-bottom: 5%;
+}
+.intoduction {
+  display: flex;
+}
+.paragraphes {
+  text-align: center;
+  font-size: 20px;
+
+}
+.boxes1 {
+  flex: 1;
+  border: 0.1em white solid;
+  background-color: #4f98dc;
+  border-radius: 1em;
+  color: white;
+  padding: 2em;
+  margin-left: 0em;
+  overflow: hidden;
+}
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: large;
+  margin-top: 3em;
+}
+.patient {
+  color: hsla(0, 85%, 97%, 0.7);
+  font-size: .875em;
+    font-weight: 400;
+    margin: 0;
+}
+.propriete {
+  font-size: 1.625em;
+    color: #fff;
+    margin-top: .3em;
+}
+.company {
+ 
+    color: #00b39b;
+    
+    padding: 10px;
+    font-size: 24px;
+   
+}
+.brands {
+margin-top: 3em;
+margin-bottom: 3em;
+margin-left: 2em;
+margin-right: 2em;
+align-items: center;
+display: flex;
+}
+.list_svg {
+  list-style: none;
+  
+ 
+
+   
+   
+   padding: 10px;
+
+}
+.public {
+  background-color: #e5faf8;
+}
+.carreau {
+  border: 1em white solid;
+    background-color: white;
+    height: 9em;
+    width: 13em;
+    align-items: flex-start;
+    margin-right: 1em;
+    border-radius: 1em;
+    text-align: center;
+    padding-top: 5em;
+    margin-left: 2em;
+}
+.centre-main {
+  color: #37c4ac;
+  text-align: center;
+}
+.para-main {
+  color: gray;
+    padding-right: 7em;
+    padding-left: 7em;
+    line-height: 1.5em;
+}
+.section6 {
+  text-align: center;
+  padding: 5em;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 5em;
+  padding-left: 5em;
+  padding-bottom: 2em;
+}
+.cards .item {
+  border-radius: 1em;
+  border: 1em solid white;
+}
+.cards .item:hover {
+  box-shadow: 1px 0px 13px 3px grey;
+}
+.ordinateur {
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: large;
+  margin-top: 3em;
+}
+.section4 {
+  justify-content: space-around;
+    color: gray;
+    font-size: 1em;
+    position: relative;
+    bottom: 0.5em;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.part11 {
+  flex: 1;
+    color: #37c4ac;
+    font-weight: bold;
+    border: 1em white solid;
+    padding-right: 7.2em;
+    font-size: 1.4em;
+    right: 2em;
+}
+.part-svg {
+  flex: 2;
+    line-height: 3em;
+    padding-left: 3em;
+   
+}
+.part-svg .list_svg :hover {
+  fill: #00b39b;
+}
+.svg_item {
+  display: flex;
+}
+.section5 {
+  display: flex;
+  background-color: #dcf7f2;
+  width: 100%;
+  height: 45em;
+}
+.pays {
+  padding: 10px;
+}
